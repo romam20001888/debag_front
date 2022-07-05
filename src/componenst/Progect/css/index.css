@@ -1,0 +1,100 @@
+.Title-Progect{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    margin-bottom: 20px;
+}
+.Title-Progect-Info{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 5px;
+    grid-auto-flow: row;
+    margin-bottom: 20px;
+}
+.Title-Progect-a{
+    font-size: 16px;
+    background: rgb(240, 240, 240);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.Title-Progect-a:hover{
+    background: rgb(27, 150, 221);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.Content-Progect-Item{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.Content-Progect-Item:nth-child(2n){
+    background-color:rgb(245, 243, 243);
+}
+.Content-Progect-Item:nth-child(2n+1){
+    background-color:#eee;
+  }
+    .Content-Progect-Item a{
+      text-decoration: none;
+    }
+.del-project{
+    font-size: 18px;
+    background-color:transparent;
+    border:none;
+    margin-right: 20px;
+    cursor: pointer;
+    color:red;
+}
+.project-name{
+    font-size: 18px;
+    color: #0090e9;
+}
+.project-name:hover{
+    color:#0171b6;
+}
+
+.add-project__wrapp{
+    text-align: center;
+}
+.add-project__wrapp input{
+    padding: 5px 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.add-project__wrapp button{
+    background: rgb(240, 240, 240);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+.add-project__wrapp button:hover{
+    background: rgb(27, 150, 221);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.Title-Progect-h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,12 @@
+.Header-Logo-Container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.Header-Logo-Container img{
+    height: 60px;
+    width: auto;
+    margin-left: 70px;
+margin-top: 10px;
+}

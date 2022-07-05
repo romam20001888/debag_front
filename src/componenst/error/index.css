@@ -1,0 +1,39 @@
+.Error-Search-Input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 1px grey;
+}
+.Error-Search-Container{
+    display: flex;
+    margin-bottom: 10px;
+}
+.Error-TextArea{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.Error-Item-Element{
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.Error-Item-H3{
+    text-align: left;
+}
+.Error-Pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Error-Pagination span{
+   margin-left: 5px;
+   margin-right: 5px;
+   cursor: pointer;
+}
+.editorClassName{
+    background: white;
+}
+.wrapperClassName{
+    background: #1c9ce7;
+}

@@ -1,0 +1,35 @@
+div.DraftEditor-root {
+    background: white;
+    width: 100%;
+}
+
+div.DraftEditor-editorContainer, div.public-DraftEditor-content {
+    height: 100%;
+}
+.Container-Constructor-Edit{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.RichEditor-controls{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.RichEditor-controls button{
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 1px rgb(51, 51, 51);
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.RichEditor-controls .RichEditor-activeButton{
+    padding: 5px;
+    background: #1c9ce7;
+    color: white;
+    border: solid 1px #1c9ce7;
+}
+.Container-Constructor-Edit-Title{
+    padding: 5px;
+    border-radius: 20px;
+}
